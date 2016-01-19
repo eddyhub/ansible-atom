@@ -1,6 +1,6 @@
 galaxy_info:
   author: Eduard Angold
-  description: Installs atom from copr: helber/atom
+  description: Installs atom from copr helber/atom
   company:
   
   # If the issue tracker for your role is not on github, uncomment the
