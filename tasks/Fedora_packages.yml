@@ -1,0 +1,6 @@
+---
+
+- name: "Installing atom from copr repo: helber-atom"
+  package:
+    name=atom
+    state=latest

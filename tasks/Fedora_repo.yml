@@ -1,0 +1,10 @@
+---
+
+- name: "add Copr repo for atom owned by helber"
+  yumrepo:
+    name="helber-atom"
+    description="Copr repo for atom owned by helber"
+    baseurl="https://copr-be.cloud.fedoraproject.org/results/helber/atom/fedora-$releasever-$basearch/"
+    gpgkey="https://copr-be.cloud.fedoraproject.org/results/helber/atom/pubkey.gpg"
+    skip_if_unavailable="yes"
+    gpgcheck="yes"
